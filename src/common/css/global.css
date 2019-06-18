@@ -1,0 +1,32 @@
+.container {
+    position: relative;
+    margin: 0 auto;
+    padding: 0 15px;
+    box-sizing: border-box
+}
+
+@media screen and (min-width: 480px) {
+}
+@media screen and (min-width: 768px) {
+    .container {
+        width: 750px
+    }
+}
+@media screen and (min-width: 992px) {
+    .container {
+        width: 970px
+    }
+}
+@media screen and (min-width: 1200px) {
+    .container {
+        width: 1170px
+    }
+}
+
+/*手机特有样式*/
+@media screen and (max-width: 480px) {
+    /*手机自适应屏幕高度，方便flex布局*/
+    html,body,#app{
+        height: 100%;
+    }
+}
